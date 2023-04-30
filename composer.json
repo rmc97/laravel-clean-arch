@@ -22,14 +22,15 @@
     },
     "autoload": {
         "psr-4": {
+            "MiniLeanpub\\": "mini-leanpub/app",
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/",
-            "MiniLeanpub\\": "mini-leanpub/"
+            "Database\\Seeders\\": "database/seeders/"
         }
     },
     "autoload-dev": {
         "psr-4": {
+            "Tests\\MiniLeanpub\\": "mini-leanpub/tests/",
             "Tests\\": "tests/"
         }
     },
