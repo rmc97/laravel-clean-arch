@@ -36,6 +36,9 @@ class CreateBookUseCaseTest extends TestCase
         $this->assertEquals('My Awesome Book', $data['title']);
     }
 
+    /**
+     * @return BookEloquentRepository
+     */
     private function getRepositoryMock()
     {
         $return = new \stdClass();
