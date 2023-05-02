@@ -31,7 +31,7 @@ class CreateBookUseCaseTest extends TestCase
 
         $data = $result->getData();
 
-        $this->assertEquals('5c353727-bdd1-4c00-aacf-e0a754cb6f33', $data['id']);
+        $this->assertEquals('5c353727-bdd1-4c00-aacf-e0a754cb6f33', $data['bookCode']);
 
         $this->assertEquals('My Awesome Book', $data['title']);
     }
@@ -43,7 +43,7 @@ class CreateBookUseCaseTest extends TestCase
     {
         $return = new \stdClass();
 
-        $return->id = '5c353727-bdd1-4c00-aacf-e0a754cb6f33';
+        $return->bookCode = '5c353727-bdd1-4c00-aacf-e0a754cb6f33';
 
         $return->title = 'My Awesome Book';
 

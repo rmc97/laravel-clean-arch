@@ -10,7 +10,7 @@ class BookTest extends TestCase
     public function testIfBookValidationThrowsExceptionToAnInvalidId()
     {
         $this->expectException(\Exception::class);
-        $this->expectExceptionMessage('Invalid Entity: ID');
+        $this->expectExceptionMessage('Invalid Entity: BookCode');
 
         $book = new Book(null, 'Titulo Livro', 'Descrição Livro', 25.9, 'path_book', 'mime_type');
 

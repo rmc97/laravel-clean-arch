@@ -17,7 +17,7 @@ class Book
 
     public function validate()
     {
-        if(!$this->bookCode) throw new \Exception("Invalid Entity: bookCode");
+        if(!$this->bookCode) throw new \Exception("Invalid Entity: BookCode");
 
         if(!$this->title || !$this->description) throw new \Exception("Invalid Entity: Title or Description");
 
