@@ -43,7 +43,7 @@ class CreateBookUseCaseTest extends TestCase
     {
         $return = new \stdClass();
 
-        $return->bookCode = '5c353727-bdd1-4c00-aacf-e0a754cb6f33';
+        $return->book_code = '5c353727-bdd1-4c00-aacf-e0a754cb6f33';
 
         $return->title = 'My Awesome Book';
 
